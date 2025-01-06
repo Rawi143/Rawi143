@@ -1,0 +1,2735 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>الهاشمي</title>
+
+<!-- استيراد jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- استيراد ملفات CSS لـ Owl Carousel -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/owl.theme.default.min.css">
+        <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+    <!-- إضافة بوتستراب عربي -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" integrity="sha384-dpuaG1suU0eT09tx5plTaGMLBsfDLzUCCUXOY2j/LSvXYuG6Bqs43ALlhIqAJVRb" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="icon" href="images/header img/Logo.png">
+        <!-- fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap" rel="stylesheet">
+        <!-- founts/ -->
+        <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    </head>
+<body>
+    
+  <div class="page-indicator">
+    <div class="top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</div>
+   <div class="container-fluid">
+    
+    <section class="ArabicSection" id="content-ar" lang="ar" dir="rtl">
+      
+      <header>
+        <div class="head">
+          <div class="row" style="box-shadow: 1px 0 10px #0000006f;">
+            <div class="col-12 p-3" data-aos="fade-down">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div>
+                      <form class="d-flex" role="search">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <div class="social">
+                              <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-instagram"></i></a>
+                              
+                          <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-facebook-f"></i></a>
+  
+                          <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-twitter"></i></a>
+                          
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link phone-no" style="color: #171717;" href="#"><i class="fa-solid fa-phone-volume"></i> <span><span>789</span> <span>456</span> <span>123</span> <span>966+</span></span></a>
+                          </li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div>
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a href="research-results.html" target="_blank"> <div class="container">
+                           <input placeholder=" أكتب هنا للبحث" required="" class="input" name="text" type="text">
+                           <div class="icon">
+                               <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
+                                   <title>Search</title>
+                                   <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                                   <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke="currentColor" fill="none"></path>
+                               </svg>
+                           </div>
+                       </div></a>
+                       </li>
+                        <!-- <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="بحث" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">بحث</button>
+                        </form> -->
+                       <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         العربية <i class="fa-solid fa-globe"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item " onclick="setLanguage('ar')" href="#">العربية</a></li>
+                          <li><a class="dropdown-item " onclick="setLanguage('en')" href="#">English</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li onclick="alert('نأسف ليس هناك المزيد من اللغات')"><a class="dropdown-item" href="#">لغة أخرى</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="file:///C:/Users/iCON/Desktop/%D8%A7%D9%84%D9%87%D8%A7%D8%B4%D9%85%D9%8A/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84/login-%D8%A7%D9%84%D9%87%D8%A7%D8%B4%D9%85%D9%8A.html" target="_blank">دخول / تسجيل</a>
+                      </li>
+                      </ul>                    
+                    </div>
+                  </div>
+  
+                </div>
+              </nav>
+            </div>
+  
+            <div class="col-12 p-3 second-nav" data-aos="fade-up">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="index.html">
+                      <div class="logo">
+                        <img src="images/header img/Logo.png" alt="الهاشمي">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="no-center">
+                      <p><i style="color: #171717;" class="fa-solid fa-bars-staggered"></i> التشخيص و العلاج</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="direct">
+                      <img src="images/header img/icons.png" alt="">
+                      <p>محادثة مباشرة</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <div class="row">
+          <div class="col-12 p-3">
+            <section class="section1" data-aos="zoom-in-down">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/main img/sec1/newImage1.png" alt="">
+                    
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main img/sec1/newImage2.png" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main img/sec1/newImage3.png" alt="">
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="whats">
+                <a href="#"><img src="images/main img/sec1-follow/whatsapp.png" alt="whatsapp"></a>
+              </div>
+            </section>       
+          </div>
+          <div class="col-12 p-3">
+            <section class="section1-follow">
+              <div class="row row-cols-1 row-cols-md-2 g-4">                                     
+            
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <!-- <div class="line--"></div> -->
+
+                  <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-profile-2user.png" alt="">
+                      
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>مركز المساعدة</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>مساعدة على مدار الساعة لتجربة تسوق سلسة.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+          
+                  </div>
+                </div>
+                
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                    <div class="content-card">
+                      <div class="col py-1">
+                        <img src="images/main img/sec1-follow/vuesax-outline-shield-tick.png" alt="">
+                      </div>
+            
+                      <div class="col py-1">
+                        <b>تسوق مع الثقة</b>
+                      </div>
+            
+                      <div class="col py-1">
+                        <div style="width: 200px;">
+                          <p>تغطي سياسة حماية المشتري الخاصة بنا رحلة الشراء بالكامل.</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+          
+                  </div>
+                </div>
+        
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+                    <div class="line"></div>
+                   <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-truck-tick.png" alt="">
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>الشحن الآمن</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>نحن نشحن إلى أكثر من 5 دول والمزيد من المناطق.</p>
+                      </div>
+                      
+                    </div>
+                   </div>
+          
+                  </div>
+                </div>
+
+                
+                
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                   <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-dollar-circle.png" alt="">
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>قيمة عظيمة</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>نقدم أسعار تنافسية على أكثر من ألف منتج.</p>
+                      </div>
+                      
+                    </div>
+                   </div>                
+        
+                  </div>
+                </div>
+
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                    <div class="content-card">
+                      <div class="col py-1">
+                        <img src="images/main img/sec1-follow/card-tick.png" alt="">
+                      </div>
+            
+                      <div class="col py-1">
+                        <b>دفع آمن</b>
+                      </div>
+            
+                      <div class="col py-1">
+                        <div style="width: 200px;">
+                          <p>ادفع مع معظم دول العالم بطرق دفع آمنة.</p>
+                        </div>
+                        
+                      </div>
+                    </div>                   
+                    
+                  </div>
+                </div>
+            
+                
+              </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+            <section class="section2">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12" data-aos="fade-left">
+                    <h3>الأقسام</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-left">
+                      <a href="الأقسام.html" target="_blank">
+
+                        <div class="division-imgs">
+                          <img src="images/main img/section2/div-card2.png" alt="card">
+                        </div>
+
+                        <div class="title-item">
+                          <div class="row">
+                            <div class="col-md-12">
+          
+                                <p>الأكثر مبيعًا</p>
+                                <h3>للنساء الحوامل</h3>
+                              
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="title-img2">
+                          <img src="images/main img/section2/div-item2.png" alt="">
+                        </div>
+
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-right">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card1.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+        
+                              <p>جديد للأم</p>
+                              <h3>علاة أمراض النساء</h3>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-left">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card4.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <p>تخفيضات على قسم</p>
+                              <h3>أمراض الرجال</h3>                           
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-right">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card3.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <p>الأكثر مبيعًا</p>
+                              <h3>عسل السدر البري</h3>                           
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+              <section class="section3">
+                <div class="container">
+                  <div class="row g-2">
+                    <div class="col-12">
+
+                      <div class="row">
+
+            <div class="col-12 title-sec">
+
+              <div data-aos="fade-left">
+                <a href="treatment packages.html" target="_blank">
+                <div class="div-sick">
+                <img src="images/main img/section2/Path 65.png" alt="">
+                <h3 style="color: #171717;">أقسام الأمراض</h3> 
+              
+              </div></a>
+              </div>
+
+              <div data-aos="fade-right">
+                <a href="treatment packages.html">
+                <p style="color: #505050;">عرض الكل</p>
+              </a>
+              </div>
+
+            </div>
+          
+          </div>
+
+                    </div>
+                    <div class="col-12 p-3" data-aos="fade-up">
+                       <div class="owl-carousel" dir="ltr">
+              
+
+              <a href="الرئيسية-الأقسام.html" target="_blank">
+                <div class="item" dir="rtl">
+                  <img src="images/main img/section3/New/BG/BG3.png" alt="">
+  
+                  <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+  
+                  <div class="title-card">
+                    <div class="row p-3">
+                      <div class="col-12"><h4>علاج أمراض الدم و القلب</h4></div>
+                      <div class="col-12"><p><span>35</span> رزمة علاجية </p></div>
+                     
+                    </div>
+  
+                  </div>
+  
+                </div>
+               </a>
+
+             <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <img src="images/main img/section3/New/BG/BG2.png" alt="">
+
+                <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><h4>أمراض الجهاز العصبي</h4></div>
+                    <div class="col-12"><p><span>35</span> رزمة علاجية </p></div>
+                   
+                  </div>
+
+                </div>
+              </div>
+             </a>
+
+             <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <img src="images/main img/section3/New/BG/BG1.png" alt="">
+
+                <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><h4>أمراض الكلى والمثانة</h4></div>
+                  <div class="col-12"><p><span>23</span> رزمة علاجية </p></div>
+                 
+                </div>
+
+              </div>
+
+              </div>
+            </a>
+
+              <a href="الرئيسية-الأقسام.html" target="_blank">
+                <div class="item" dir="rtl">
+                  <img src="images/main img/section3/New/BG/BG4.png" alt="">
+
+                  <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><h4>علاج العظام و المفاصل</h4></div>
+                    <div class="col-12"><p><span>35</span> رزمة علاجية </p></div>
+                   
+                  </div>
+
+                </div>
+
+                </div>
+              </a>
+                             
+          </div>
+        </div>
+
+                    </div>
+                  </div>
+              </section>
+          </div>
+           <div class="col-12 p-3">
+                  <section class="section3-2">
+                    <div class="container">
+                      <div class="row g-2">
+                        <div class="col-12">
+    
+                          <div class="row">
+    
+                <div class="col-12 title-sec">
+    
+                  <div data-aos="fade-left">
+                    <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+                    <div class="div-sick">
+                    <img src="images/main img/section2/Path 65.png" alt="">
+                    <h3 style="color: #171717;">الرزم الأكثر طلبا</h3> 
+                  
+                  </div></a>
+                  </div>
+    
+                  <div data-aos="fade-right">
+                    <a href="الرئيسية-أقسام-الأمراض.html">
+                    <p style="color: #505050;">عرض الكل</p>
+                  </a>
+                  </div>
+    
+                </div>
+              
+              </div>
+    
+                        </div>
+                        <div class="col-12 p-3" data-aos="fade-up">
+                           <div class="owl-carousel" dir="ltr">
+                            <a href="الرئيسية-الأقسام.html" target="_blank">
+                              <div class="item" dir="rtl">
+                                <img src="images/main img/section3/New/products/BG - Images3.png" alt="">
+                
+                                <div class="title-card">
+                                  <div class="row p-3">
+                                    <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                                    <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                                    <div class="col-12"><span class="span-card"><span>540</span> <span>ر.س</span></span> <span class="px-4"><del>600 ر.س</del></span></div>
+                                   
+                                  </div>
+                
+                                </div>
+                
+                              </div>
+                             </a>
+    
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <img src="images/main img/section3/New/products/BG - Images2.png" alt="">
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>طقم تصحيح صبغة الجمال</strong></div>
+                        <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                        <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                       
+                      </div>
+    
+                    </div>
+                  </div>
+                 </a>
+    
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <img src="images/main img/section3/New/products/BG - Images1.png" alt="">
+  
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                        <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                        <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                       
+                      </div>
+    
+                    </div>
+  
+                  </div>
+                </a>
+    
+                  <a href="الرئيسية-الأقسام.html" target="_blank">
+                    <div class="item" dir="rtl">
+                      <img src="images/main img/section3/New/products/BG - Images4.png" alt="">
+    
+                      <div class="title-card">
+                        <div class="row p-3">
+                          <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                          <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                          <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                         
+                        </div>
+      
+                      </div>
+    
+                    </div>
+                  </a>
+
+                  <a href="الرئيسية-الأقسام.html" target="_blank">
+                    <div class="item" dir="rtl">
+                      <img src="images/main img/section3/New/products/BG - Images5.png" alt="">
+    
+                      <div class="title-card">
+                        <div class="row p-3">
+                          <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                          <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                          <div class="col-12"><span class="span-card"><span>1200</span> <span>ر.س</span></span> </div>
+                         
+                        </div>
+      
+                      </div>
+    
+                    </div>
+                  </a>
+
+                  <a href="الرئيسية-الأقسام.html" target="_blank">
+                    <div class="item" dir="rtl">
+                      <img src="images/main img/section3/New/products/BG - Images6.png" alt="">
+    
+                      <div class="title-card">
+                        <div class="row p-3">
+                          <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                          <div class="col-12"><p><span>10</span> علبة مكونة</p></div>
+                          <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                         
+                        </div>
+      
+                      </div>
+    
+                    </div>
+                  </a>
+                                 
+              </div>
+            </div>
+    
+                        </div>
+                      </div>
+                  </section>
+           </div>
+           <div class="col-12 p-3">
+            <section class="section3-3">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12">
+
+                    <div class="row">
+
+          <div class="col-12 title-sec">
+
+            <div data-aos="fade-left">
+              <a href="Our products.html" target="_blank">
+              <div class="div-sick">
+              <img src="images/main img/section2/Path 65.png" alt="">
+              <h3 style="color: #171717;">الأكثر مبيعاً</h3> 
+            
+            </div></a>
+            </div>
+
+            <div data-aos="fade-right">
+              <a href="Our products.html">
+              <p style="color: #505050;">عرض الكل</p>
+            </a>
+            </div>
+
+          </div>
+        
+        </div>
+
+                  </div>
+                  <div class="col-12 p-3" data-aos="fade-up">
+                     <div class="owl-carousel" dir="ltr">
+
+                      <a href="الرئيسية-الأقسام.html" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/heal/heal4.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                              <div class="col-12"><p>العظام و المفاصل</p></div>
+                              <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> <span class="px-4"><del>350 ر.س</del></span></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                       </a>
+
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item" dir="rtl">
+              <div class="img-item">
+                <img src="images/main img/section3/New/heal/heal5.png" alt="">
+              </div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>علاج التهاب الكبد الوبائي أو الفيروسي</strong></div>
+                  <div class="col-12"><p>العظام و المفاصل</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+            </div>
+           </a>
+
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item" dir="rtl">
+              <div class="img-item">
+                <img src="images/main img/section3/New/heal/heal3.png" alt="">
+              </div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                  <div class="col-12"><p>العظام و المفاصل</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+
+            <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <div class="img-item">
+                  <img src="images/main img/section3/New/heal/heal2.png" alt="">
+                </div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><strong>علاج حصى الكلى بالأعشاب الطبيعية</strong></div>
+                    <div class="col-12"><p>العظام و المفاصل</p></div>
+                    <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                   
+                  </div>
+
+                </div>
+
+              </div>
+            </a>
+
+            <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <div class="img-item">
+                  <img src="images/main img/section3/New/heal/heal1.png" alt="">
+                </div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><strong>علاج أعراض سن اليأس بالأعشاب</strong></div>
+                    <div class="col-12"><p>العظام و المفاصل</p></div>
+                    <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                   
+                  </div>
+
+                </div>
+
+              </div>
+            </a>
+                           
+        </div>
+      </div>
+
+                  </div>
+                </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+      <section class="section3-4">
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-12 title-sec4">
+
+              <div data-aos="fade-left">
+                <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+                <div class="div-sick">
+                <img src="images/main img/section3/New/doctor-img/dr-icon.png" alt="">
+                <h3 style="color: #171717;">المستشارين</h3> 
+              
+              </div></a>
+              </div>
+
+            </div>
+            <div class="col-12 p-3" data-aos="fade-up">
+               <div class="owl-carousel" dir="ltr">
+
+                <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor5.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor4.png" alt="د.حسين جمعة">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.حسين جمعة</strong></div>
+                        <div class="col-12"><p>تغذية الإنسان و الحمايات</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor3.png" alt="د.خالد الملك">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.خالد الملك</strong></div>
+                        <div class="col-12"><p>التغذية الإكلينيكية</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor2.png" alt="د.غزلان عياد">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.غزلان عياد</strong></div>
+                        <div class="col-12"><p>التغذية و الصحة العامة</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor1.png" alt="">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.محمد جمال عبد الباقي</strong></div>
+                        <div class="col-12"><p>متخصص في التغذية الصحية</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor6.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor7.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor8.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor9.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor10.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor11.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>التغذية و الطب البديل</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+                     
+  </div>
+</div>
+
+            </div>
+          </div>
+      </section>
+          </div>
+          <div class="col-12 p-3">
+            <section class="section3-5">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12">
+
+                    <div class="row">
+
+          <div class="col-12 title-sec">
+
+            <div data-aos="fade-left">
+              <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+              <div class="div-sick">
+              
+              <h3 style="color: #171717;">قصص شفاء</h3> 
+            
+            </div></a>
+            </div>
+
+            <div data-aos="fade-right">
+              <a href="الرئيسية-أقسام-الأمراض.html">
+              <p style="color: #505050;">عرض الكل</p>
+            </a>
+            </div>
+
+          </div>
+        
+        </div>
+
+                  </div>
+                  <div class="col-12 p-3" data-aos="fade-up">
+                     <div class="owl-carousel" dir="ltr">
+
+                      <a href="#" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/Images-Stories/Images - Stories3.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><p>أمراض الكلى و المثانة</p></div>
+                              <div class="col-12"><strong>كانت قلقة على إبنتها من EM </strong>                              
+                              <div class="col-12"><strong>فماذا حدث؟</strong>                              
+                              </div>                             
+                              <div class="col-12"><p>إقرأ القصة</p></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                        </div>
+                       </a>
+
+                       <a href="#" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/Images-Stories/Images - Stories2.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><p>أمراض الكلى و المثانة</p></div>
+                              <div class="col-12"><strong>كانت قلقة على إبنتها من EM </strong>                              
+                              <div class="col-12"><strong>فماذا حدث؟</strong>                              
+                              </div>                             
+                              <div class="col-12"><p>إقرأ القصة</p></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                        </div>
+                       </a>
+
+                       <a href="#" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/Images-Stories/Images - Stories1.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><p>أمراض الكلى و المثانة</p></div>
+                              <div class="col-12"><strong>كانت قلقة على إبنتها من EM </strong>                              
+                              <div class="col-12"><strong>فماذا حدث؟</strong>                              
+                              </div>                             
+                              <div class="col-12"><p>إقرأ القصة</p></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                        </div>
+                       </a>
+
+                       <a href="#" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/Images-Stories/Images - Stories4.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><p>أمراض الكلى و المثانة</p></div>
+                              <div class="col-12"><strong>كانت قلقة على إبنتها من EM </strong>                              
+                              <div class="col-12"><strong>فماذا حدث؟</strong>                              
+                              </div>                             
+                              <div class="col-12"><p>إقرأ القصة</p></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                        </div>
+                       </a>
+                           
+        </div>
+      </div>
+
+                  </div>
+                </div>
+            </section>
+          </div>
+
+          <div class="col-12 p-3">
+            <section class="section4">
+              <div class="container">
+                <div class="row g-4">
+                  <div class="col-12 p-2">
+                    <div class="title-sec4">
+                      <div class="sec4-icon px-1" data-aos="fade-left">
+                        <img src="images/main img/section4/Icon.png" alt="">
+                      </div>
+                      <div>
+                        <div class="row px-3 g-2">
+                          <div class="col-12" data-aos="fade-down"><strong>أراء نفتخر بها</strong></div>
+                          <div class="col-12" data-aos="fade-up"><b>قالوا عنا</b></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 p-2">
+                    <div class="row g-3">
+                      <div class="col-md-6 p-4 " data-aos="fade-up-left">
+                        <div class="row opinion-div p-4">
+                          <div class="col-10"><div class="top">
+                            <div class="user-img"><img src="images/main img/section4/f1b4f35c609fd65e1012fe5c1e81ba9b.png" alt="مدحت الخالدي"></div>
+                            <div class="user-name"><div class="row px-3">
+                              <div class="col-12"><p>مدحت الخالدي</p></div>
+                              <div class="col-12"><p style="color: #505050; font-size: small;">منذ <span>3</span> أيام</p></div>
+                            </div></div>
+                          </div></div>
+                          <div class="col-2 p-3">
+                            <img src="images/main img/section4/text icon.png" alt=",,">
+                          </div>
+                          <div class="col-11 py-4">
+                            <b>فريقكم مبدع وطموح وهذا الأمر الذي حفزنا وشجعنا للتعامل المستمر معكم ، نتمنى لكم دوام التوفيق</b>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 p-4 " data-aos="fade-down-right">
+                        <div class="row opinion-div p-4">
+                          <div class="col-10"><div class="top">
+                            <div class="user-img"><img src="images/main img/section4/IconUser.png" alt="عبد الله محمد"></div>
+                            <div class="user-name"><div class="row px-3">
+                              <div class="col-12"><p>عبد الله محمد</p></div>
+                              <div class="col-12"><p style="color: #505050; font-size: small;">منذ <span>10</span> أيام</p></div>
+                            </div></div>
+                          </div></div>
+                          <div class="col-2 p-3">
+                            <img src="images/main img/section4/text icon.png" alt=",,">
+                          </div>
+                          <div class="col-11 py-4">
+                            <b>تميزتم بمنتجاتكم وابداعاتكم المستمرة فلكم مني كل التحايات و التقدير وخالص الدعوات بالتوفيق</b>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12 p-2 forbtn" data-aos="flip-left">
+                    <button type="button" class="btn">أكتب رأيك</button>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <div class="col-12 p-5">
+            <section class="section5">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6 p-3" data-aos="fade-up-left">
+                    <div class="row p-3 g-3">
+                     <div class="col-12"><p>هل تحتاج مساعدة ؟</p></div>
+                     <div class="col-12">
+                       <h4>يوجد فريق مختص للرد على جميع الاستفسارات</h4>
+                     </div>
+                     <div class="col-12  ">
+                       <button class="btn" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                         <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                       </svg> طلب المساعدة</button>
+                     </div>
+                    </div>
+                   </div>
+                   <div class="col-6 p-3 doc-img" data-aos="fade-down-right">
+                     <div class="inner">
+                       <div class="img4">
+                        <img id="image1" src="images/main img/section5/doctor4.png" alt="" class="image image1">
+                       </div>
+                       <div class="img3">
+                        <img id="image2" src="images/main img/section5/doctor3.png" alt="" class="image image2">
+                       </div>
+                       <div class="img2">
+                        <img id="image3" src="images/main img/section5/doctor2.png" alt="" class="image image3">
+                       </div>
+                       <div class="img1">
+                        <img id="image4" src="images/main img/section5/doctor1.png" alt="" class="image image4">
+                       </div>
+                     </div>
+                   </div>
+                </div>
+              </div>
+            </section>
+          </div>
+
+              
+          </div>
+        
+      </main>
+     
+      <footer>
+        <div class="footer">
+          <div class="row container-fluid">
+            <div class="col-12 p-5">
+              <div class="secfooter">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="container">
+                      <div class="row g-3 p-3">
+                        <div class="col-12">
+                          <img src="images/footer img/Logo.png" alt="الهاشمي">
+                        </div>
+                        <div class="col-12 px-3">
+                          <div class="social">
+                            <button> <a href="#"><i class="fa-brands fa-whatsapp"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-snapchat"></i></a></button>
+                          </div>
+                        </div>
+                        <div class="col-12 p-3">
+                          <b>&copy; جميع الحقوق محفوظة 2024</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 p-1">
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>                                                          
+                                <td><a href="#">حول</a></td>
+                                <td><a href="#">المتجر</a></td>
+                                <td><a href="#">مساعدة</a></td>
+                              </tr>
+                            </thead>
+  
+                            <tbody>
+                              <tr>
+                                
+                                <td><a href="#">مساعدة</a></td>
+                                <td><a href="#">رزم علاجية</a></td>
+                                <td><a href="#">معلومات عنا</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">طلباتي</a></td>
+                                <td><a href="#">منتجات</a></td>
+                                <td><a href="#"> قصص شفاء</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">اتصل بنا</a></td>
+                                <td><a href="#">جديدنا</a></td>
+                                <td><a href="#">سياسة الخصوصية</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">مركز المساعدة</a></td>
+                                <td><a href="#">تخفيضات</a></td>
+                                <td><a href="#">البنود و الشروط</a></td>
+                              </tr>
+                            </tbody>
+  
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="container">
+                      <div class="row g-1 px-3">
+                        <div class="col-12">
+                          <div class="p-2"><h5>كن على اطلاع</h5>
+                          <p>اشترك في القائمة البريدية للعروض والمزيد!</p>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="input-group">
+                              <input class="button--submit" value="إشتراك" type="submit">
+                                  <input type="email" class="input" id="Email" name="Email" placeholder="أدخل بريدك الإلكتروني" autocomplete="off">
+                                  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="row">
+                              <div class="col-2"><div class="iconq">
+                                <i class="fa-solid fa-phone"></i>
+                              </div></div>
+                              <div class="col-10"> <p>+972591234567 / +972591234567</p></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="row">
+                              <div class="col-2">
+                                <div class="iconq">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                              </div>
+                              <div class="col-10" style="text-align: right;"> <p> الإمارات - أبو ظبي - القَبُو - حوض شرق 38</p></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </section>
+
+    <!-- ----------------------------English section -------------------------------------- -->
+
+    <section class="EnglishSection" id="content-en" lang="en" dir="ltr" style="display: none;">
+      <header>
+        <div class="head">
+          <div class="row" style="box-shadow: 1px 0 10px #0000006f;">
+            <div class="col-12 p-3" data-aos="fade-down">
+              <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+  
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div>
+                      <form class="d-flex" role="search">
+                        <ul class="nav">
+                          <li class="nav-item">
+                            <div class="social">
+                              <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-instagram"></i></a>
+                              
+                          <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-facebook-f"></i></a>
+  
+                          <a class="nav-link disabled" style="color: #505050;"><i class="fa-brands fa-twitter"></i></a>
+                          
+                            </div>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" style="color: #171717;" href="#"><i class="fa-solid fa-phone-volume"></i> +966 123 456 789</a>
+                          </li>
+                        </ul>
+                      </form>
+                    </div>
+                    <div>
+                      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                          <a href="research-results.html" target="_blank"> <div class="container">
+                           <input placeholder="Type to search..." required="" class="input" name="text" type="text">
+                           <div class="icon">
+                               <svg viewBox="0 0 512 512" class="ionicon" xmlns="http://www.w3.org/2000/svg">
+                                   <title>Search</title>
+                                   <path stroke-width="32" stroke-miterlimit="10" stroke="currentColor" fill="none" d="M221.09 64a157.09 157.09 0 10157.09 157.09A157.1 157.1 0 00221.09 64z"></path>
+                                   <path d="M338.29 338.29L448 448" stroke-width="32" stroke-miterlimit="10" stroke-linecap="round" stroke="currentColor" fill="none"></path>
+                               </svg>
+                           </div>
+                       </div></a>
+                       </li>
+                        <!-- <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="search" aria-label="Search">
+                          <button class="btn btn-outline-success" type="submit">search</button>
+                        </form> -->
+                       <li class="nav-item dropdown ">
+                        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                         English <i class="fa-solid fa-globe"></i>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item " onclick="setLanguage('ar')" href="#">العربية</a></li>
+                          <li><a class="dropdown-item " onclick="setLanguage('en')" href="#">English</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li onclick="alert('sorry there are no more languages')"><a class="dropdown-item" href="#">another language</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="file:///C:/Users/iCON/Desktop/%D8%A7%D9%84%D9%87%D8%A7%D8%B4%D9%85%D9%8A/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84%20%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84/login-%D8%A7%D9%84%D9%87%D8%A7%D8%B4%D9%85%D9%8A.html" target="_blank">login / sign in</a>
+                      </li>
+                      </ul>
+                    </div>
+                  </div>
+  
+                </div>
+              </nav>
+            </div>
+  
+            <div class="col-12 p-3" data-aos="fade-up">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-3">
+                    <a href="index.html">
+                      <div class="logo">
+                        <img src="images/header img/Logo.png" alt="Al-Hashimi">
+                      </div>
+                    </a>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="no-center">
+                      <p><i style="color: #171717;" class="fa-solid fa-bars-staggered"></i>Diagnosis and treatment</p>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="direct">
+                      <img src="images/header img/icons.png" alt="">
+                      <p>Live chat</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="row">
+          <div class="col-12 p-3">
+            <section class="section1" data-aos="zoom-in-down">
+              <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/main img/sec1/newImage1.png" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main img/sec1/newImage2.png" alt="">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/main img/sec1/newImage3.png" alt="">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              
+
+              <div class="whats">
+                <a href="#"><img src="images/main img/sec1-follow/whatsapp.png" alt="whatsapp"></a>
+              </div>
+            </section>
+            
+          </div>
+          <div class="col-12 p-3">
+            <section class="section1-follow">
+              <div class="row row-cols-1 row-cols-md-2 g-4">             
+        
+   
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line--"></div>
+
+                  <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-profile-2user.png" alt="">
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>Help Center</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>24/7 assistance for a smooth shopping experience.</p>
+                      </div>
+                      
+                    </div>
+                  </div>
+                  
+          
+                  </div>
+                </div>
+                
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                    <div class="content-card">
+                      <div class="col py-1">
+                        <img src="images/main img/sec1-follow/vuesax-outline-shield-tick.png" alt="">
+                      </div>
+            
+                      <div class="col py-1">
+                        <b>Shop with confidence</b>
+                      </div>
+            
+                      <div class="col py-1">
+                        <div style="width: 200px;">
+                          <p>Our Buyer Protection Policy covers your entire purchasing journey</p>
+                        </div>
+                        
+                      </div>
+                    </div>
+          
+                  </div>
+                </div>
+        
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+                    <div class="line"></div>
+                   <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-truck-tick.png" alt="">
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>Safe shipping</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>We ship to more than 5 countries and more regions.</p>
+                      </div>
+                      
+                    </div>
+                   </div>
+          
+                  </div>
+                </div>
+
+                
+                
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                   <div class="content-card">
+                    <div class="col py-1">
+                      <img src="images/main img/sec1-follow/vuesax-outline-dollar-circle.png" alt="">
+                    </div>
+          
+                    <div class="col py-1">
+                      <b>Great value</b>
+                    </div>
+          
+                    <div class="col py-1">
+                      <div style="width: 200px;">
+                        <p>We offer competitive prices on over a thousand products.</p>
+                      </div>
+                      
+                    </div>
+                   </div>                
+        
+                  </div>
+                </div>
+
+                <div class="card text-center mb-3" data-aos="fade-up" style="width: 18rem;">
+                  <div class="card-body">
+
+                    <div class="line"></div>
+                    <div class="content-card">
+                      <div class="col py-1">
+                        <img src="images/main img/sec1-follow/card-tick.png" alt="">
+                      </div>
+            
+                      <div class="col py-1">
+                        <b>Secure payment</b>
+                      </div>
+            
+                      <div class="col py-1">
+                        <div style="width: 200px;">
+                          <p>Pay with most countries of the world with secure payment methods.</p>
+                        </div>
+                        
+                      </div>
+                    </div>                   
+                    
+                  </div>
+                </div>
+            
+                
+              </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+            <section class="section2">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12">
+                    <h3>Departments</h3>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-up">
+                      <a href="الأقسام.html" target="_blank">
+
+                        <div class="division-imgs">
+                          <img src="images/main img/section2/div-card2.png" alt="card">
+                        </div>
+
+                        <div class="title-item">
+                          <div class="row">
+                            <div class="col-md-12">
+          
+                                <p>best seller</p>
+                                <h3>For pregnant women</h3>
+                              
+                            </div>
+                          </div>
+                        </div>
+
+                        <div class="title-img2">
+                          <img src="images/main img/section2/div-item2.png" alt="">
+                        </div>
+
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-up">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card1.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+        
+                              <p>New for mother</p>
+                              <h3>Gynecological diseases</h3>
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-up">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card4.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <p>Department discounts</p>
+                              <h3>Diseases of men</h3>                           
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="division-item p-1" data-aos="fade-up">
+
+                      <a href="الأقسام.html" target="_blank">
+                        <div class="division-imgs img1">
+                          
+                          <img src="images/main img/section2/div-card3.png" alt="">
+                          
+                        </div>                     
+        
+                      <div class="title-item">
+                        <div class="row">
+                          <div class="col-md-12">
+                              <p>best seller</p>
+                              <h3>Wild Sidr honey</h3>                           
+                          </div>
+                        </div>
+                      </div>
+                    </a>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+            <section class="section3">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12">
+
+                    <div class="row">
+
+          <div class="col-12 title-sec">
+
+            <div data-aos="fade-right">
+              <a href="treatment packages.html" target="_blank">
+              <div class="div-sick">
+              <img src="images/main img/section2/Path 65.png" alt="">
+              <h3 style="color: #171717;">Diseases departments</h3> 
+            
+            </div></a>
+            </div>
+
+            <div data-aos="fade-left">
+              <a href="treatment packages.html">
+              <p style="color: #505050;">Show all</p>
+            </a>
+            </div>
+
+          </div>
+        
+        </div>
+
+                  </div>
+                  <div class="col-12 p-3" data-aos="fade-up">
+                     <div class="owl-carousel">
+            
+                      <a href="الرئيسية-الأقسام.html" target="_blank">
+                        <div class="item">
+                          <img src="images/main img/section3/New/BG/BG1.png" alt="">
+            
+                          <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+            
+                        <div class="title-card">
+                          <div class="row p-3">
+                            <div class="col-12"><h4>Kidney and bladder diseases</h4></div>
+                            <div class="col-12"><p><span>23</span>Treatment package</p></div>
+                           
+                          </div>
+            
+                        </div>
+            
+                        </div>
+                      </a>
+            
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item">
+              <img src="images/main img/section3/New/BG/BG2.png" alt="">
+
+              <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><h4>Nervous system diseases</h4></div>
+                  <div class="col-12"><p><span>35</span>Treatment package</p></div>
+                 
+                </div>
+
+              </div>
+            </div>
+           </a>
+
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item">
+              <img src="images/main img/section3/New/BG/BG3.png" alt="">
+
+              <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><h5>Treatment of blood and heart diseases</h5></div>
+                  <div class="col-12"><p><span>35</span>Treatment package</p></div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+           </a>
+
+            <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item">
+                <img src="images/main img/section3/New/BG/BG4.png" alt="">
+
+                <div class="shadow"><img src="images/main img/section3/New/BG/OV.png" ></div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><h4>Bone and joint treatment</h4></div>
+                  <div class="col-12"><p><span>35</span>Treatment package</p></div>
+                 
+                </div>
+
+              </div>
+
+              </div>
+            </a>
+                           
+        </div>
+      </div>
+
+                  </div>
+                </div>
+            </section>
+          </div>
+          <div class="col-12 p-3">
+          <section class="section3-2">
+            <div class="container">
+              <div class="row g-2">
+                <div class="col-12">
+
+                  <div class="row">
+
+        <div class="col-12 title-sec">
+
+          <div data-aos="fade-right">
+            <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+            <div class="div-sick">
+            <img src="images/main img/section2/Path 65.png" alt="">
+            <h3 style="color: #171717;">Most requested packages</h3> 
+          
+          </div></a>
+          </div>
+
+          <div data-aos="fade-left">
+            <a href="الرئيسية-أقسام-الأمراض.html">
+            <p style="color: #505050;">Show all</p>
+          </a>
+          </div>
+
+        </div>
+      
+      </div>
+
+                </div>
+                <div class="col-12 p-3" data-aos="fade-up">
+                   <div class="owl-carousel">
+                    <a href="الرئيسية-الأقسام.html" target="_blank">
+                      <div class="item">
+                        <img src="images/main img/section3/New/products/BG - Images1.png" alt="">
+            
+                        <div class="title-card">
+                          <div class="row p-3">
+                            <div class="col-12"><strong>Treating kidney stones with natural herbs</strong></div>
+                            <div class="col-12"><p><span>10</span>Configured box</p></div>
+                            <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                           
+                          </div>
+            
+                        </div>
+            
+                      </div>
+                    </a>                   
+
+         <a href="الرئيسية-الأقسام.html" target="_blank">
+          <div class="item">
+            <img src="images/main img/section3/New/products/BG - Images2.png" alt="">
+
+            <div class="title-card">
+              <div class="row p-3">
+                <div class="col-12"><strong>Beauty pigment correction kit</strong></div>
+                <div class="col-12"><p><span>10</span>Configured box</p></div>
+                <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+               
+              </div>
+
+            </div>
+          </div>
+         </a>
+
+         <a href="الرئيسية-الأقسام.html" target="_blank">
+          <div class="item">
+            <img src="images/main img/section3/New/products/BG - Images3.png" alt="">
+
+            <div class="title-card">
+              <div class="row p-3">
+                <div class="col-12"><strong>Treating kidney stones with natural herbs</strong></div>
+                <div class="col-12"><p><span>10</span>Configured box</p></div>
+                <div class="col-12"><span class="span-card"><span>540</span></span> <span class="px-4"><del>600 ر.س</del></span></div>
+               
+              </div>
+
+            </div>
+
+          </div>
+         </a>
+
+          <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item">
+              <img src="images/main img/section3/New/products/BG - Images4.png" alt="">
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>Treating kidney stones with natural herbs</strong></div>
+                  <div class="col-12"><p><span>10</span>Configured box</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+
+          <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item">
+              <img src="images/main img/section3/New/products/BG - Images5.png" alt="">
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>Treating kidney stones with natural herbs</strong></div>
+                  <div class="col-12"><p><span>10</span>Configured box</p></div>
+                  <div class="col-12"><span class="span-card"><span>1200</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+
+          <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item">
+              <img src="images/main img/section3/New/products/BG - Images6.png" alt="">
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>Treating kidney stones with natural herbs</strong></div>
+                  <div class="col-12"><p><span>10</span>Configured box</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+                         
+      </div>
+    </div>
+
+                </div>
+              </div>
+          </section>
+          </div>
+          <div class="col-12 p-3">
+            <section class="section3-3">
+              <div class="container">
+                <div class="row g-2">
+                  <div class="col-12">
+
+                    <div class="row">
+
+          <div class="col-12 title-sec">
+
+            <div data-aos="fade-right">
+              <a href="Our products.html" target="_blank">
+              <div class="div-sick">
+              <img src="images/main img/section2/Path 65.png" alt="">
+              <h3 style="color: #171717;">best seller</h3> 
+            
+            </div></a>
+            </div>
+
+            <div data-aos="fade-left">
+              <a href="Our products.html">
+              <p style="color: #505050;">Show all</p>
+            </a>
+            </div>
+
+          </div>
+        
+        </div>
+
+                  </div>
+                  <div class="col-12 p-3" data-aos="fade-up">
+                     <div class="owl-carousel" dir="ltr">
+
+                      <a href="الرئيسية-الأقسام.html" target="_blank">
+                        <div class="item" dir="rtl">
+                          <div class="img-item">
+                            <img src="images/main img/section3/New/heal/heal4.png" alt="">
+                          </div>
+          
+                          <div class="title-card">
+                            <div class="row p-3">
+                              <div class="col-12"><strong>Treatment of kidney stones with natural herbs</strong></div>
+                              <div class="col-12"><p>Bones and joints.</p></div>
+                              <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> <span class="px-4"><del>350 ر.س</del></span></div>
+                             
+                            </div>
+          
+                          </div>
+          
+                        </div>
+                       </a>
+
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item" dir="rtl">
+              <div class="img-item">
+                <img src="images/main img/section3/New/heal/heal5.png" alt="">
+              </div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>Treatment of hepatitis C or viral</strong></div>
+                  <div class="col-12"><p>Bones and joints.</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+            </div>
+           </a>
+
+           <a href="الرئيسية-الأقسام.html" target="_blank">
+            <div class="item" dir="rtl">
+              <div class="img-item">
+                <img src="images/main img/section3/New/heal/heal3.png" alt="">
+              </div>
+
+              <div class="title-card">
+                <div class="row p-3">
+                  <div class="col-12"><strong>Treatment of kidney stones with natural herbs</strong></div>
+                  <div class="col-12"><p>Bones and joints.</p></div>
+                  <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                 
+                </div>
+
+              </div>
+
+            </div>
+          </a>
+
+            <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <div class="img-item">
+                  <img src="images/main img/section3/New/heal/heal2.png" alt="">
+                </div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><strong>Treatment of kidney stones with natural herbs</strong></div>
+                    <div class="col-12"><p>Bones and joints.</p></div>
+                    <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                   
+                  </div>
+
+                </div>
+
+              </div>
+            </a>
+
+            <a href="الرئيسية-الأقسام.html" target="_blank">
+              <div class="item" dir="rtl">
+                <div class="img-item">
+                  <img src="images/main img/section3/New/heal/heal1.png" alt="">
+                </div>
+
+                <div class="title-card">
+                  <div class="row p-3">
+                    <div class="col-12"><strong>Treatment of menopausal symptoms with herbs</strong></div>
+                    <div class="col-12"><p>Bones and joints.</p></div>
+                    <div class="col-12"><span class="span-card"><span>300</span> <span>ر.س</span></span> </div>
+                   
+                  </div>
+
+                </div>
+
+              </div>
+            </a>
+                           
+        </div>
+      </div>
+
+                  </div>
+                </div>
+            </section>
+         </div>
+     <div class="col-12 p-3">
+      <section class="section3-4">
+        <div class="container">
+          <div class="row g-2">
+            <div class="col-12 title-sec4">
+
+              <div data-aos="fade-right">
+                <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+                <div class="div-sick">
+                <img src="images/main img/section3/New/doctor-img/dr-icon.png" alt="">
+                <h3 style="color: #171717;">Advisers</h3> 
+              
+              </div></a>
+              </div>
+
+            </div>
+            <div class="col-12 p-3" data-aos="fade-up">
+               <div class="owl-carousel">
+
+                <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor5.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor4.png" alt="د.حسين جمعة">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.حسين جمعة</strong></div>
+                        <div class="col-12"><p>Human nutrition and protections</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor3.png" alt="د.خالد الملك">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.خالد الملك</strong></div>
+                        <div class="col-12"><p>Clinical Nutrition</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor2.png" alt="د.غزلان عياد">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.غزلان عياد</strong></div>
+                        <div class="col-12"><p>Nutrition & Public Health ...</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor1.png" alt="">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.محمد جمال عبد الباقي</strong></div>
+                        <div class="col-12"><p>Specialist in Health Nutrition</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor6.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor7.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor8.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor9.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor10.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+
+                 <a href="الرئيسية-الأقسام.html" target="_blank">
+                  <div class="item" dir="rtl">
+                    <div class="img-item">
+                      <img src="images/main img/section3/New/doctor-img/Images - Doctor11.png" alt="د.منال عمر">
+                    </div>
+    
+                    <div class="title-card">
+                      <div class="row p-3">
+                        <div class="col-12"><strong>د.منال عمر</strong></div>
+                        <div class="col-12"><p>Nutrition & Alternative Medicine</p></div>
+                       
+                      </div>
+    
+                    </div>
+    
+                  </div>
+                 </a>
+                     
+  </div>
+</div>
+
+            </div>
+          </div>
+      </section>
+         </div>
+         <div class="col-12 p-3">
+          <section class="section3-5">
+            <div class="container">
+              <div class="row g-2">
+                <div class="col-12">
+
+                  <div class="row">
+
+        <div class="col-12 title-sec">
+
+          <div data-aos="fade-right">
+            <a href="الرئيسية-أقسام-الأمراض.html" target="_blank">
+            <div class="div-sick">
+            
+            <h3 style="color: #171717;">Healing stories</h3> 
+          
+          </div></a>
+          </div>
+
+          <div data-aos="fade-left">
+            <a href="الرئيسية-أقسام-الأمراض.html">
+            <p style="color: #505050;">Show all</p>
+          </a>
+          </div>
+
+        </div>
+      
+      </div>
+
+                </div>
+                <div class="col-12 p-3" data-aos="fade-up">
+                   <div class="owl-carousel" dir="ltr">
+
+                    <a href="#" target="_blank">
+                      <div class="item" dir="rtl">
+                        <div class="img-item">
+                          <img src="images/main img/section3/New/Images-Stories/Images - Stories3.png" alt="">
+                        </div>
+        
+                        <div class="title-card" dir="ltr">
+                          <div class="row p-3">
+                            <div class="col-12"><p>Kidney and bladder diseases</p></div>
+                            <div class="col-12"><strong>She was worried about her daughter from EM</strong>                              
+                            <div class="col-12"><strong>So what happened?</strong>                              
+                            </div>                             
+                            <div class="col-12"><p>Read the story</p></div>
+                           
+                          </div>
+        
+                        </div>
+        
+                      </div>
+                      </div>
+                     </a>
+
+                     <a href="#" target="_blank">
+                      <div class="item" dir="rtl">
+                        <div class="img-item">
+                          <img src="images/main img/section3/New/Images-Stories/Images - Stories2.png" alt="">
+                        </div>
+        
+                        <div class="title-card" dir="ltr">
+                          <div class="row p-3">
+                            <div class="col-12"><p>Kidney and bladder diseases</p></div>
+                            <div class="col-12"><strong>She was worried about her daughter from EM</strong>                              
+                            <div class="col-12"><strong>So what happened?</strong>                              
+                            </div>                             
+                            <div class="col-12"><p>Read the story</p></div>
+                           
+                          </div>
+        
+                        </div>
+        
+                      </div>
+                      </div>
+                     </a>
+
+                     <a href="#" target="_blank">
+                      <div class="item" dir="rtl">
+                        <div class="img-item">
+                          <img src="images/main img/section3/New/Images-Stories/Images - Stories1.png" alt="">
+                        </div>
+        
+                        <div class="title-card" dir="ltr">
+                          <div class="row p-3">
+                            <div class="col-12"><p>Kidney and bladder diseases</p></div>
+                            <div class="col-12"><strong>She was worried about her daughter from EM</strong>                              
+                            <div class="col-12"><strong>So what happened?</strong>                              
+                            </div>                             
+                            <div class="col-12"><p>Read the story</p></div>
+                           
+                          </div>
+        
+                        </div>
+        
+                      </div>
+                      </div>
+                     </a>
+
+                     <a href="#" target="_blank">
+                      <div class="item" dir="rtl">
+                        <div class="img-item">
+                          <img src="images/main img/section3/New/Images-Stories/Images - Stories4.png" alt="">
+                        </div>
+        
+                        <div class="title-card" dir="ltr">
+                          <div class="row p-3">
+                            <div class="col-12"><p>Kidney and bladder diseases</p></div>
+                            <div class="col-12"><strong>She was worried about her daughter from EM</strong>                              
+                            <div class="col-12"><strong>So what happened?</strong>                              
+                            </div>                             
+                            <div class="col-12"><p>Read the story</p></div>
+                           
+                          </div>
+        
+                        </div>
+        
+                      </div>
+                      </div>
+                     </a>
+                         
+      </div>
+    </div>
+
+                </div>
+              </div>
+          </section>
+        </div>
+        <div class="col-12 p-3">
+          <section class="section4">
+            <div class="container">
+              <div class="row g-4">
+                <div class="col-12 p-2">
+                  <div class="title-sec4" data-aos="fade-right">
+                    <div class="sec4-icon px-1">
+                      <img src="images/main img/section4/Icon.png" alt="">
+                    </div>
+                    <div>
+                      <div class="row px-3 g-2">
+                        <div class="col-12" data-aos="fade-down"><strong>Opinions we are proud of</strong></div>
+                        <div class="col-12" data-aos="fade-up"><b>They said about us</b></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 p-2">
+                  <div class="row g-3">
+                    <div class="col-md-6 p-4 "  data-aos="fade-down-right">
+                      <div class="row opinion-div p-4">
+                        <div class="col-10"><div class="top">
+                          <div class="user-img"><img src="images/main img/section4/f1b4f35c609fd65e1012fe5c1e81ba9b.png" alt="مدحت الخالدي"></div>
+                          <div class="user-name"><div class="row px-3">
+                            <div class="col-12"><p>مدحت الخالدي</p></div>
+                            <div class="col-12"><p style="color: #505050; font-size: small;">since <span>3</span> days</p></div>
+                          </div></div>
+                        </div></div>
+                        <div class="col-2 p-3">
+                          <img src="images/main img/section4/text icon.png" alt=",,">
+                        </div>
+                        <div class="col-11 py-4">
+                          <b>فريقكم مبدع وطموح وهذا الأمر الذي حفزنا وشجعنا للتعامل المستمر معكم ، نتمنى لكم دوام التوفيق</b>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-6 p-4 "  data-aos="fade-up-left">
+                      <div class="row opinion-div p-4">
+                        <div class="col-10"><div class="top">
+                          <div class="user-img"><img src="images/main img/section4/IconUser.png" alt="عبد الله محمد"></div>
+                          <div class="user-name"><div class="row px-3">
+                            <div class="col-12"><p>عبد الله محمد</p></div>
+                            <div class="col-12"><p style="color: #505050; font-size: small;">since <span>10</span> days</p></div>
+                          </div></div>
+                        </div></div>
+                        <div class="col-2 p-3">
+                          <img src="images/main img/section4/text icon.png" alt=",,">
+                        </div>
+                        <div class="col-11 py-4">
+                          <b>تميزتم بمنتجاتكم وابداعاتكم المستمرة فلكم مني كل التحايات و التقدير وخالص الدعوات بالتوفيق</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 p-2 forbtn">
+                  <button type="button" class="btn">Write your opinion</button>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+        <div class="col-12 p-5">
+          <section class="section5">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6 p-3" data-aos="fade-down-right">
+                  <div class="row p-3 g-3">
+                   <div class="col-12"><p>Do you need help?</p></div>
+                   <div class="col-12">
+                     <h4>There is a specialized team to answer all inquiries</h4>
+                   </div>
+                   <div class="col-12  ">
+                     <button class="btn" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-headset" viewBox="0 0 16 16">
+                       <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5"/>
+                     </svg> Ask for help</button>
+                   </div>
+                  </div>
+                 </div>
+                 <div class="col-6 p-3 doc-img"  data-aos="fade-up-left">
+                   <div class="inner">
+                     <div class="img4">
+                      <img src="images/main img/section5/doctor4.png" alt="">
+                     </div>
+                     <div class="img3">
+                      <img src="images/main img/section5/doctor3.png" alt="">
+                     </div>
+                     <div class="img2">
+                      <img src="images/main img/section5/doctor2.png" alt="">
+                     </div>
+                     <div class="img1">
+                      <img src="images/main img/section5/doctor1.png" alt="">
+                     </div>
+                   </div>
+                 </div>
+              </div>
+            </div>
+          </section>
+        </div>
+          
+
+
+         </div>
+        
+      </main>
+      <footer>
+        <div class="footer">
+          <div class="row container-fluid">
+            <div class="col-12 p-5">
+              <div class="secfooter">
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="container">
+                      <div class="row g-3 p-3">
+                        <div class="col-12">
+                          <img src="images/footer img/Logo.png" alt="الهاشمي">
+                        </div>
+                        <div class="col-12 px-3">
+                          <div class="social">
+                            <button> <a href="#"><i class="fa-brands fa-whatsapp"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-instagram"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-facebook-f"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-twitter"></i></a></button>
+                            <button><a href="#"><i class="fa-brands fa-snapchat"></i></a></button>
+                          </div>
+                        </div>
+                        <div class="col-12 p-3">
+                          <b>&copy;   All rights reserved 2024</b>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-5">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-12 p-1">
+                          <table class="table table-borderless">
+                            <thead>
+                              <tr>                                                          
+                                <td><a href="#">about</a></td>
+                                <td><a href="#">the store</a></td>
+                                <td><a href="#">help</a></td>
+                              </tr>
+                            </thead>
+  
+                            <tbody>
+                              <tr>
+                                
+                                <td><a href="#">help</a></td>
+                                <td><a href="#">Treatment packages</a></td>
+                                <td><a href="#">about us</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">My requests</a></td>
+                                <td><a href="#">products</a></td>
+                                <td><a href="#">Healing stories</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">Contact us</a></td>
+                                <td><a href="#">Our news</a></td>
+                                <td><a href="#">privacy policy</a></td>
+                              </tr>
+                              <tr>
+                                
+                                <td><a href="#">Help Center</a></td>
+                                <td><a href="#">Sale</a></td>
+                                <td><a href="#">Terms and Conditions</a></td>
+                              </tr>
+                            </tbody>
+  
+                          </table>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="container">
+                      <div class="row g-1 px-3">
+                        <div class="col-12">
+                          <div class="p-2"><h5>Be informed</h5>
+                          <p>Subscribe to the mailing list for offers and more!</p>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="input-group">
+                              <input class="button--submit" value="Subscribe" type="submit">
+                                  <input type="email" class="input" id="Email" name="Email" placeholder="Enter your email" autocomplete="off">
+                                  
+                              </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="row">
+                              <div class="col-2"><div class="iconq">
+                                <i class="fa-solid fa-phone"></i>
+                              </div></div>
+                              <div class="col-10"> <p>+972591234567 / +972591234567</p></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12">
+                          <div class="p-2">
+                            <div class="row">
+                              <div class="col-2">
+                                <div class="iconq">
+                                  <i class="fa-solid fa-location-dot"></i>
+                                </div>
+                              </div>
+                              <div class="col-10" style="text-align: right;"> <p> The UAE -  Abu Dhabi - The basement - حوض شرق 38</p></div>
+                              
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      
+    </section>
+  </div>
+
+   
+
+
+   
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
