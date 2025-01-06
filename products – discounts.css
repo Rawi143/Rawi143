@@ -1,0 +1,25 @@
+
+
+main .section2 .item{
+    position: relative;
+}
+main .section2 .item .discount{
+    position: absolute;
+    background-color: #D90003;
+    color: #fff;
+    padding: 2px 5px;
+    font-size: large;
+    top: 20px;
+    right: 10px;
+    width: 80px;
+    text-align: center;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+
+main .section2 .item .discount:hover{
+    background-color: rgba(255, 255, 0, 0.691);
+    color: red;
+    transition: all 0.3s ease;
+    
+}
